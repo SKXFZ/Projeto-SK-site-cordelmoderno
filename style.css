@@ -42,7 +42,7 @@ main{
 }
 
 aside {
-    width: 370px;
+    width: 480px;
     /* border: 1px solid black; */
     padding: 100px 50px;
     font-size: 2.1em;
@@ -75,12 +75,12 @@ aside {
 
 .text {
     background-color: rgba(15, 15, 15, 0.438);
-    height: 470px;
-    width: 370px;
+    height: 420px;
+    width: 410px;
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 25px;
-    padding: 0px 5px;
+    padding: 5px 8px;
     color: white;
     font-size: 2.1em;
     text-shadow: 1px 1px 1px black;
