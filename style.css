@@ -57,6 +57,7 @@ aside {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
+    position: relative;
     border-radius: 2px;
     box-shadow: inset 0px -3px 12px 4px rgba(0, 0, 0, 0.76);
 }
@@ -64,18 +65,22 @@ aside {
     height: 560px;
     background-image: url('images/background002.jpg');
     background-position: right center;
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
     border-radius: 2px;
     box-shadow: inset 0px -3px 12px 4px rgba(0, 0, 0, 0.76);
 }
 
 .text {
-    background-color: rgba(15, 15, 15, 0.329);
-    height: 410px;
+    background-color: rgba(15, 15, 15, 0.438);
+    height: 470px;
     width: 370px;
-    position
-    padding: 45px 50px;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    padding: 0px 5px;
     color: white;
     font-size: 2.1em;
     text-shadow: 1px 1px 1px black;
