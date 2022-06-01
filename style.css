@@ -22,6 +22,7 @@ header {
     color: white;
     padding: 43px;
     text-align: center;
+    font-variant: small-caps;
     font: normal bold 2.2em var(--font-title), arial, helvetica, sans-serif;
 }
 
@@ -29,11 +30,11 @@ header > p {
     color: #ffffffe7;
     font: normal lighter 19px arial;
 }
-#milton {
+a {
     text-decoration: none;
     color: white;
 }
-#milton:hover {
+a:hover {
     text-decoration: underline;
 }
 /* -----------------------------------------------------------------------------*/
